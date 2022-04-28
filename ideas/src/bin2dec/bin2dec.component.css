@@ -1,0 +1,33 @@
+.container{
+    background-color: #daeafa;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.title{
+    margin: 20px;
+    border-left: 1px solid chocolate;
+    border-bottom: 1px solid chocolate;
+    padding-left: 30px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.body{
+    margin: 15px 15px 15px 15px;
+}
+.inp{
+    background-color: antiquewhite;
+    color:blue;
+}
+.binv{
+    padding-left: 20px;
+    background-color: #ffdddd;
+    color: red;
+}
+.decv{
+    padding-left: 20px;
+    background-color: #ffdddd;
+    color: red;
+}

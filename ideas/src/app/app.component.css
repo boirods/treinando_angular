@@ -1,0 +1,29 @@
+.container{
+    width: 750px;
+    background-color: beige;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulo{
+    text-align: center;
+    padding: 15px;
+    margin: 16px 16px 16px 16px;
+    border-radius: 1em;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: 2px solid chocolate ;
+    border-right: 2px solid chocolate;
+}
+.paragrafos{
+    padding: 8px;
+    color: red;
+}
+.apps{
+    color:#900;
+
+}
+.apps:visited{
+    border: 1px solid blue;
+    border-radius: 8px;
+}

@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="title">
+        <h2>Bin2dec</h2>
+    </div>
+    <div class="body">
+        <p><input ngModel #formBin="ngModel" type="text" class="inp" placeholder="Binary value here" value="0"/> to <input type="text" name="decvalue" id="decvalue" class="inp" placeholder="Decimal value here" [value]="valorMudouBin(formBin.value)" value="0"/></p>
+    </div>
+    <div class="erro">
+        <p class="binv" [hidden]="incorretobin">O valor digitado não corresponde a um numero binário!</p>
+    </div>
+</div>
