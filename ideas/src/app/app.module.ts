@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { Bin2decComponent } from 'src/bin2dec/bin2dec.component';
+import { Bin2decComponent } from 'src/app/bin2dec/bin2dec.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';

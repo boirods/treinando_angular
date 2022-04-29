@@ -1,1 +1,43 @@
-<p>calculadora works!</p>
+<div class="container">
+    <div class="title">
+        <h2>Calculadora</h2>
+    </div>
+    <div class="body">
+        <p class="desenvolvendo">Ainda em desenvolvimento</p>
+        <table class="table">
+            <tr>
+                <td colspan="4"><input type="text" value="0"></td>
+            </tr>
+            <tr>
+                <td><button class="btn calcBtn" ngClick="clicouClearAll()">AC</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouLimpa()">C</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouMemoria()">M</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouDivide()">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn calcBtn" ngClick="clicouSete()">7</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouOito()">8</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouNove()">9</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouMultiplica()">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn calcBtn" ngClick="clicouQuatro()">4</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouCinco()">5</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouSeis()">6</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouMenos()">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn calcBtn" ngClick="clicouUm()">1</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouDois()">2</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouTres()">3</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouMais">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="btn calcBtn" ngClick="clicouZero()">0</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouVirgula()">,</button></td>
+                <td><button class="btn calcBtn" ngClick="clicouIgual()">=</button></td>
+            </tr>
+        </table>
+        
+    </div>
+</div>

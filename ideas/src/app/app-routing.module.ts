@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Bin2decComponent } from 'src/bin2dec/bin2dec.component';
+import { Bin2decComponent } from 'src/app/bin2dec/bin2dec.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
 
 const routes: Routes = [

@@ -1,0 +1,12 @@
+.table tr td{
+    border: 1px solid #900;
+}
+.calcBtn{
+    width: 100%;
+    height: 100%;
+}
+.desenvolvendo{
+    background-color: #ffaaaa;
+    color: #993333;
+    padding: 10px;
+}
