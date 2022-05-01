@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
 import { CalculadoraServiceService } from './services';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Bin2decComponent,
-    CalculadoraComponent
+    CalculadoraComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
