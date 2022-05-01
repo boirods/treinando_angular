@@ -6,6 +6,7 @@ import { Bin2decComponent } from 'src/app/bin2dec/bin2dec.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
+import { CalculadoraServiceService } from './services';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { CalculadoraComponent } from './calculadora/calculadora.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [CalculadoraServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
